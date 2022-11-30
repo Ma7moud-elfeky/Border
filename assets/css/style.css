@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+div {
+  text-align: center;
+}
+p {
+  margin: 20px;
+  width: 150px;
+  position: relative;
+  padding: 20px;
+  font-size: 25px;
+  color: goldenrod;
+  font-weight: 600;
+  overflow: hidden;
+}
+p::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 20px;
+  border-top: 1px solid green;
+  border-left: 1px solid green;
+  top: 10px;
+  left: 20px;
+}
+p::after {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 20px;
+  border-bottom: 1px solid green;
+  border-right: 1px solid green;
+  bottom: 10px;
+  right: 15px;
+}
+
+p {
+  border: 1px solid gold;
+  margin: auto;
+}
+div {
+  padding-top: 50px;
+}
